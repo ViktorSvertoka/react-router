@@ -270,6 +270,29 @@ ul {
   margin-right: 0;
 }
 
+.company-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+}
+
+.icon-clock::before {
+}
+
+.icon-diagram::before {
+}
+
+.icon-astronaut::before {
+}
+
 .company-title {
   font-weight: 700;
   font-size: 14px;
@@ -287,7 +310,7 @@ ul {
 /* <!-- what does the company do --> */
 
 .works-bg {
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
   background-color: var(--primary-white-color);
 }
 
@@ -326,16 +349,25 @@ ul {
 
 .team-bg {
   padding-bottom: 0;
+  padding-top: 0;
   background-color: #f5f4fa;
 }
 
 .team-box {
   width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
   height: 648px;
   background-color: #f5f4fa;
   /* outline: 5px solid tomato; */
+}
+
+.team {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-title {
@@ -345,9 +377,6 @@ ul {
   text-align: center;
   margin: 0px 668px 50px 668px;
   padding-top: 94px;
-}
-
-.team {
 }
 
 .team-list {
@@ -383,6 +412,39 @@ ul {
   color: var(--title-text-color);
 }
 
+/* regular customers */
+
+.customers-bg {
+}
+
+.customers {
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+}
+
+.customers-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+}
+
+.customers-item:last-child {
+  margin: 0;
+}
 /* окончание мейна */
 
 /* начало футера */
@@ -463,6 +525,21 @@ ul {
   color: var(--accent-color);
 }
 
+/* join-in */
+
+.join-in {
+  display: inline-block;
+  align-items: center;
+}
+
+.join-in-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-white-color);
+}
 /* окончание футера */
 
 /* страница портфолио */
