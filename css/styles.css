@@ -187,7 +187,11 @@ ul {
 
 .banner-box {
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
