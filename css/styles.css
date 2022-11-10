@@ -270,7 +270,7 @@ ul {
   margin-right: 0;
 }
 
-.company-item::before {
+/* .company-item::before {
   display: block;
   content: '';
   height: 120px;
@@ -279,9 +279,14 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+} */
+
+.company-icon {
+  width: 65.32px;
+  height: 70px;
 }
 
-.icon-antenna::before {
+/* .icon-antenna::before {
 }
 
 .icon-clock::before {
@@ -291,7 +296,7 @@ ul {
 }
 
 .icon-astronaut::before {
-}
+} */
 
 .company-title {
   font-weight: 700;
