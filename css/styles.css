@@ -154,7 +154,14 @@ ul {
   margin-right: 50px;
 } */
 
+.contact-item-header {
+  display: flex;
+  align-items: center;
+}
+
 .contact-link-header {
+  /* display: inline;
+  vertical-align: middle; */
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -167,6 +174,26 @@ ul {
   color: var(--accent-color);
 }
 
+.contact-icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  /* margin-top: 34px;
+  margin-bottom: 34px; */
+}
+
+.contact-icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
+}
+
+.contact-icon-mail:hover,
+.contact-icon-mail:focus {
+  color: var(--accent-color);
+}
 /* окончание хедара */
 
 /* начало мейна */
@@ -282,8 +309,9 @@ ul {
 } */
 
 .company-item-box {
-  display: block;
-  content: '';
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -295,7 +323,7 @@ ul {
 .company-icon {
   width: 65.32px;
   height: 70px;
-  margin: 25px 100px;
+  /* margin: 25px 100px; */
 }
 
 /* .icon-antenna::before {
@@ -495,9 +523,7 @@ ul {
   margin-left: auto;
   background-color: #2f303a;
   display: flex;
-  /* flex-direction: column; */
-  /* align-content: flex-start; */
-  /* outline: 5px solid tomato; */
+  align-items: center;
 }
 
 .logo-footer {
@@ -531,7 +557,7 @@ ul {
   text-decoration: none;
   text-align: left;
   margin-top: 0;
-  margin-right: 1154px;
+  /* margin-right: 1154px; */
   margin-bottom: 60px;
   margin-left: 215px;
 }
@@ -566,8 +592,13 @@ ul {
 /* join-in */
 
 .join-in {
-  display: inline-block;
-  /* align-items: center; */
+  /* display: flex;
+  align-items: center; */
+}
+
+.join-in-list {
+  display: flex;
+  align-items: center;
 }
 
 .join-in-title {
@@ -578,6 +609,27 @@ ul {
   text-align: center;
   color: var(--primary-white-color);
 }
+
+.instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  width: 20px;
+  height: 16.25px;
+}
+
+.facebook {
+  width: 10px;
+  height: 20px;
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+
 /* окончание футера */
 
 /* страница портфолио */
