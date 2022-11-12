@@ -462,7 +462,7 @@ ul {
 .team-icons-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 16px 32px 30px 32px;
 }
 
 .team-icons-button {
@@ -481,18 +481,20 @@ ul {
   background-color: var(--accent-color);
 }
 
-.team-icons-button:last-child {
+/* .team-icons-button:last-child {
   margin-right: 0;
-}
+} */
 
 .team-icons {
   background-position: center;
-  fill: currentColor;
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
 }
 
 .team-icons:hover,
 .team-icons:focus {
-  fill: var(--accent-color);
+  fill: white;
 }
 
 /* regular customers */
