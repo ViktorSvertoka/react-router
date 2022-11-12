@@ -456,7 +456,7 @@ ul {
   color: var(--title-text-color);
 }
 
-.team-icons {
+.team-icons-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -471,6 +471,26 @@ ul {
   border-radius: 50%;
   margin-right: 10px;
   background-color: var(--primary-white-color);
+  background-position: center;
+}
+
+.team-icons-button:hover,
+.team-icons-button:focus {
+  background-color: var(--accent-color);
+}
+
+.team-icons-button:last-child {
+  margin-right: 0;
+}
+
+.team-icons {
+  fill: #afb1b8;
+  background-position: center;
+}
+
+.team-icons:hover,
+.team-icons:focus {
+  fill: chartreuse;
 }
 
 /* .team-instagram {
