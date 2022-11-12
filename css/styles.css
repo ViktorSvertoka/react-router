@@ -456,6 +456,43 @@ ul {
   color: var(--title-text-color);
 }
 
+.team-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-icons-button {
+  padding: 0;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: var(--primary-white-color);
+}
+
+/* .team-instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.team-twitter {
+  width: 20px;
+  height: 16.25px;
+}
+
+.team-facebook {
+  width: 10px;
+  height: 20px;
+}
+
+.team-linkedin {
+  width: 20px;
+  height: 20px;
+} */
+
 /* regular customers */
 
 .customers-bg {
@@ -608,6 +645,18 @@ ul {
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-white-color);
+}
+
+.join-in-item {
+  display: inline-block;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 20px;
 }
 
 .instagram {
