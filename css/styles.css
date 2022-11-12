@@ -458,7 +458,6 @@ ul {
 
 .team-icons-box {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -484,34 +483,14 @@ ul {
 }
 
 .team-icons {
-  fill: #afb1b8;
   background-position: center;
+  fill: currentColor;
 }
 
 .team-icons:hover,
 .team-icons:focus {
   fill: var(--accent-color);
 }
-
-/* .team-instagram {
-  width: 20px;
-  height: 20px;
-}
-
-.team-twitter {
-  width: 20px;
-  height: 16.25px;
-}
-
-.team-facebook {
-  width: 10px;
-  height: 20px;
-}
-
-.team-linkedin {
-  width: 20px;
-  height: 20px;
-} */
 
 /* regular customers */
 
@@ -583,6 +562,14 @@ ul {
   align-items: center;
 }
 
+.address-box {
+  display: flex;
+}
+
+.address-container {
+  margin-right: 70px;
+}
+
 .logo-footer {
   width: 145px;
   margin-top: 60px;
@@ -648,30 +635,20 @@ ul {
 
 /* join-in */
 
-.join-in {
-  /* display: flex;
-  align-items: center; */
+.join-in-box {
+  margin-top: 72px;
+}
+
+.join-in-title {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .join-in-list {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
-}
-
-.join-in-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--primary-white-color);
-}
-
-.join-in-item {
-  /* display: inline-block;
-  align-items: center; */
 }
 
 .join-in-button {
@@ -681,32 +658,24 @@ ul {
   height: 44px;
   border-radius: 50%;
   margin-right: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  background-position: center;
+  background: rgba(255, 255, 255, 0.1);
+  /* background-position: center; */
+  background-position: 50% 50%;
+}
+
+.join-in-button:hover,
+.join-in-button:focus {
+  background: var(--accent-color);
 }
 
 .join-in-link {
-}
-
-/* .instagram {
+  background-position: center;
+  fill: var(--primary-white-color);
+  margin: 0;
+  padding: 0;
   width: 20px;
   height: 20px;
 }
-
-.twitter {
-  width: 20px;
-  height: 16.25px;
-}
-
-.facebook {
-  width: 10px;
-  height: 20px;
-}
-
-.linkedin {
-  width: 20px;
-  height: 20px;
-} */
 
 /* окончание футера */
 
