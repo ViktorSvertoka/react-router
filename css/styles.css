@@ -440,7 +440,6 @@ ul {
 .team-item:last-child {
   margin: 0;
 }
-
 .team-specialist {
   font-weight: 500;
   font-size: 16px;
@@ -462,15 +461,18 @@ ul {
 }
 
 .team-icons-button {
-  padding: 0;
+  /* padding: 0; */
   border: none;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   margin-right: 10px;
   background-color: var(--primary-white-color);
-  background-position: center;
   fill: #afb1b8;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* background-position: 50% 50%; */
 }
 
 .team-icons-button:hover,
@@ -484,8 +486,8 @@ ul {
 } */
 
 .team-icons {
-  background-position: center;
-  /* fill: #afb1b8; */
+  /* background-position: center; */
+  /* fill: currentColor; */
   width: 20px;
   height: 20px;
 }
@@ -665,7 +667,10 @@ ul {
   margin-right: 10px;
   background: rgba(255, 255, 255, 0.1);
   /* background-position: center; */
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .join-in-button:hover,
