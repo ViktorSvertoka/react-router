@@ -151,11 +151,6 @@ ul {
   margin-right: 50px;
 }
 
-/* .contact-item-header {
-  display: flex;
-  align-items: center;
-} */
-
 .contact-link-header {
   display: inline-flex;
   align-items: center;
@@ -164,6 +159,7 @@ ul {
   font-size: 14px;
   line-height: 1.15;
   color: var(--title-text-color);
+  fill: var(--title-text-color);
 }
 
 .contact-link-header:hover,
@@ -176,25 +172,25 @@ ul {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--title-text-color);
+  /* fill: var(--title-text-color); */
 }
 
-.contact-icon-mail:hover,
+/* .contact-icon-mail:hover,
 .contact-icon-mail:focus {
   fill: var(--accent-color);
-}
+} */
 
 .contact-icon-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--title-text-color);
+  /* fill: var(--title-text-color); */
 }
 
-.contact-icon-phone:hover,
+/* .contact-icon-phone:hover,
 .contact-icon-phone:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* окончание хедара */
 
