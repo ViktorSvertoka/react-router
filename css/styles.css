@@ -391,32 +391,33 @@ ul {
 /* <!-- our team --> */
 
 .team-bg {
-  padding-bottom: 0;
-  padding-top: 0;
+  /* padding-bottom: 0; */
+  /* padding-top: 0; */
   background-color: #f5f4fa;
 }
 
-.team-box {
+/* .team-box {
   width: 1600px;
   height: 648px;
   background-color: #f5f4fa;
-}
+} */
 
-.team {
+/* .team {
   width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin: 0px 668px 50px 668px;
-  padding-top: 94px;
+  margin-bottom: 50px;
+  /* margin: 0px 668px 50px 668px; */
+  /* padding-top: 94px; */
 }
 
 .team-list {
@@ -425,7 +426,7 @@ ul {
   padding-right: 15px;
   display: flex;
   align-items: center;
-  margin: 50px 215px 94px 215px;
+  /* margin: 50px 215px 94px 215px; */
 }
 .team-item {
   width: 270px;
