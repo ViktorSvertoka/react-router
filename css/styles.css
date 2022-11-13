@@ -141,6 +141,7 @@ ul {
 
 .contact-list-header {
   display: flex;
+  align-items: center;
   margin-left: 344px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -150,18 +151,14 @@ ul {
   margin-right: 50px;
 }
 
-/* .contacts-nav .contact-item + .contact-item {
-  margin-right: 50px;
-} */
-
-.contact-item-header {
+/* .contact-item-header {
   display: flex;
   align-items: center;
-}
+} */
 
 .contact-link-header {
-  /* display: inline;
-  vertical-align: middle; */
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -172,13 +169,14 @@ ul {
 .contact-link-header:hover,
 .contact-link-header:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .contact-icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--title-text-color);
 }
 
 .contact-icon-mail:hover,
@@ -190,13 +188,14 @@ ul {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--title-text-color);
 }
 
 .contact-icon-phone:hover,
 .contact-icon-phone:focus {
   fill: var(--accent-color);
 }
+
 /* окончание хедара */
 
 /* начало мейна */
@@ -494,7 +493,7 @@ ul {
 
 .team-icons:hover,
 .team-icons:focus {
-  fill: white;
+  fill: var(--primary-white-color);
 }
 
 /* regular customers */
@@ -534,7 +533,7 @@ ul {
 
 .customers-item-box:hover,
 .customers-item-box:focus {
-  border-color: #2196f3;
+  border-color: var(--accent-color);
 }
 
 .customers-item:last-child {
@@ -550,7 +549,7 @@ ul {
 
 .customers-icon:hover,
 .customers-icon:focus {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 /* окончание мейна */
@@ -724,8 +723,8 @@ ul {
 
 .button-navigation:hover,
 .button-navigation:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* <!--gallery--> */
