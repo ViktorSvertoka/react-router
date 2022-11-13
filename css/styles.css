@@ -469,11 +469,13 @@ ul {
   margin-right: 10px;
   background-color: var(--primary-white-color);
   background-position: center;
+  fill: #afb1b8;
 }
 
 .team-icons-button:hover,
 .team-icons-button:focus {
   background-color: var(--accent-color);
+  fill: var(--primary-white-color);
 }
 
 /* .team-icons-button:last-child {
@@ -482,15 +484,15 @@ ul {
 
 .team-icons {
   background-position: center;
-  fill: #afb1b8;
+  /* fill: #afb1b8; */
   width: 20px;
   height: 20px;
 }
 
-.team-icons:hover,
+/* .team-icons:hover,
 .team-icons:focus {
   fill: var(--primary-white-color);
-}
+} */
 
 /* regular customers */
 
