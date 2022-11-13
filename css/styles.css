@@ -524,12 +524,13 @@ ul {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  /* color: #afb1b8; */
+  fill: #afb1b8;
 }
 
 .customers-item-box:hover,
 .customers-item-box:focus {
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .customers-item:last-child {
@@ -540,13 +541,13 @@ ul {
   width: 106px;
   height: 60px;
   margin: 16px 32px;
-  fill: #afb1b8;
+  /* fill: #afb1b8; */
 }
 
-.customers-icon:hover,
+/* .customers-icon:hover,
 .customers-icon:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* окончание мейна */
 
