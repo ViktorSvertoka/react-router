@@ -594,7 +594,7 @@ ul {
 .join-in-button:hover,
 .join-in-button:focus {
   background: var(--accent-color);
-  /* fill: var(--primary-white-color); */
+  fill: var(--primary-white-color);
 }
 
 .join-in-link {
