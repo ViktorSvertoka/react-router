@@ -566,6 +566,11 @@ ul {
   text-decoration: none;
   text-align: left;
   margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .join-in-list {
@@ -589,6 +594,7 @@ ul {
 .join-in-button:hover,
 .join-in-button:focus {
   background: var(--accent-color);
+  /* fill: var(--primary-white-color); */
 }
 
 .join-in-link {
