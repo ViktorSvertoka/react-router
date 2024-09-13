@@ -1,12 +1,16 @@
-import { Outlet } from 'react-router-dom';
-import Menu from '../components/Menu';
+import { Suspense } from "react";
+import { Outlet } from "react-router-dom";
+import Menu from "../components/Menu";
+import "../App.css";
 
 function MainLayout() {
   return (
-    <>
+    <div className="App">
       <Menu />
-      <Outlet />
-    </>
+      <Suspense fallback={"Loader..."}>
+        <Outlet />
+      </Suspense>
+    </div>
   );
 }
 
